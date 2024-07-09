@@ -1,0 +1,13 @@
+[
+    {
+      "username": "test_user",
+      "password": "password123",
+      "expectedMessage": "Login successful!"
+    },
+    {
+      "username": "invalid_user",
+      "password": "wrong_password",
+      "expectedErrorMessage": "Invalid credentials"
+    }
+  ]
+  
