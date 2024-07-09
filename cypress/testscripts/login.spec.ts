@@ -12,6 +12,7 @@ describe('Login functionality', () => {
     const loginPage = new LoginPage(); // Assuming you have a LoginPage class
     loginPage.fillLoginForm(username, password);
     loginPage.submitLogin();
+    //comment
 
     if (data.expectedMessage) {
       cy.get('.message').should('contain', data.expectedMessage);
