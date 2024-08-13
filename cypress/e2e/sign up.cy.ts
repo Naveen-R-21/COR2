@@ -3,7 +3,7 @@ describe('Verify if we can sign up page', () => {
   
         cy.visit('https://cordemo.usecology.com/');
         cy.contains('a', 'Sign-up Now').click();
-        cy.wait(5000);
+        cy.wait(6000);
         cy.xpath('//input[@formcontrolname="first_name"]').eq(0).type("Aura");        
         cy.xpath('//input[@formcontrolname="last_name"]').eq(0).type('Kein');
         cy.xpath('//input[@formcontrolname="UserId"]').eq(0).type('10007');
