@@ -4,7 +4,7 @@ describe('Verify if we can Login with Valid credentials', () => {
       cy.visit('https://cordemo.usecology.com/');
 
       cy.get('input#user').type('manand84');
-      cy.wait(1000);
+      cy.wait(2000);
       
       cy.get('input#passwrd').type('Changeme!@2345');
 
