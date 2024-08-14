@@ -22,7 +22,7 @@ describe('Verify if we can sign up page', () => {
         cy.xpath('//input[@formcontrolname="mobile"]').eq(0).type('2123456780');
         cy.xpath('//input[@formcontrolname="fax"]').eq(0).type('2123356787');
         cy.xpath('//input[@formcontrolname="search_id"]').eq(0).type('888880');
-        cy.wait(2000);
+        cy.wait(9000);
         cy.get('em.fa-sign-in.fa-lg').first().click();
         cy.wait(4000);
         cy.xpath("(//*[contains(text(),'I agree, Create my Account')])[1]").click();
